@@ -226,3 +226,22 @@ def pred_sorter(model, data, cutoff=.05):
     nogo_preds=cat_preds[~indexer]
     good_preds=cat_preds[indexer]
     return good_preds,nogo_preds,indexer
+
+# def describe_model(model,x,y):
+#     #Like the .summary() method, but specialized
+#
+#     opt=str(model.optimizer).split()[0].split('.')[-1]
+#     # This is brittle, it may fail for optimizers beyond tf's standard ones.
+#
+#     param_num=model.count_params()
+#     eval_dict={k:v for k,v in zip(model.metrics_names,model.evaluate(x,y,verbose=0))}
+#     #Create an evaluation dictionary from tf's .evaluate method by way of a list of keys & values
+#     loss_fxn=model.loss
+#
+#     return opt,param_num,eval_dict
+
+#Not used currently.
+
+def model_perf(model,x,y):
+
+
