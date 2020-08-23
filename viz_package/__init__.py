@@ -242,6 +242,6 @@ def pred_sorter(model, data, cutoff=.05):
 
 #Not used currently.
 
-def model_perf(model,x,y):
+
 
 

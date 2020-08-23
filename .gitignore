@@ -1,6 +1,10 @@
 test
 train
 val
+initial_scratchwork.ipynb
+README.md
+best.h5
+cnn_04.h5
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
